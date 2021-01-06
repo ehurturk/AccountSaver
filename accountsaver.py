@@ -77,7 +77,8 @@ class Account():
 
 		for i in range(0, len(Account.all_users["Passwords"])):
 			if (i==len(Account.all_users["Passwords"]) - 1):
-				pyperclip.copy("".join(Account.all_users["Passwords"]))
+				password = "".join(Account.all_users["Passwords"][i])
+				pyperclip.copy(password)
 			website = Account.all_users["Websites"][i]
 			Account.data_dict[website] = {"username": Account.all_users["Usernames"][i], "password": "".join(Account.all_users["Passwords"][i])}
 

@@ -13,6 +13,6 @@ To save the latest account's password to your clipboard, you should use the pack
 
 To open the program, you need to type:
 
-- `python3 [your pytohn version] testingpurposes.py`to your terminal
+- `python3 [your python version] accountsaver.py`to your terminal
 
 Thanks for being interested,
